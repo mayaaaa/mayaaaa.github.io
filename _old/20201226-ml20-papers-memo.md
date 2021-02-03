@@ -39,8 +39,6 @@ tags: [NeurIPS20]
 ### [PDF](https://proceedings.neurips.cc/paper/2020/file/89562dccfeb1d0394b9ae7e09544dc70-Paper.pdf)
 
 --- 
-## Teaching a GAN What Not to Learn
-### [PDF](https://papers.nips.cc/paper/2020/hash/29405e2a4c22866a205f557559c7fa4b-Abstract.html)
 
 ---
 ## Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
