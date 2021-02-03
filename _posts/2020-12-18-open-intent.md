@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Open Intent Extraction from Natural Language Interactions [WWW 2020] 
+title: Open Intent Extraction from Natural Language Interactions
+tag: [WWW 2020] 
 ---
 
 ### イントロ
