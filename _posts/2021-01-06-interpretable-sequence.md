@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interpretable Sequence Learning for COVID-19 Forecasting [NeurIPS 20]
+title: Interpretable Sequence Learning for COVID-19 Forecasting 
 tags: [NeurIPS20]
 ---
 

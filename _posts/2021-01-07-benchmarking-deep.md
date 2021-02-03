@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benchmarking Deep Learning Interpretability in Time Series Predictions [NeurIPS 20]
+title: Benchmarking Deep Learning Interpretability in Time Series Predictions 
 tags: [NeurIPS20]
 ---
 

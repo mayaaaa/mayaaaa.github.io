@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deep Relational Topic Modeling via Graph Poisson Gamma Belief Network [NeurIPS 20]
+title: Deep Relational Topic Modeling via Graph Poisson Gamma Belief Network 
 tags: [NeurIPS20]
 ---
 

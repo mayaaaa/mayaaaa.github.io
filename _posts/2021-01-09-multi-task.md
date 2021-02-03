@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multi-task Causal Learning with Gaussian Processes [NeurIPS 20] 
+title: Multi-task Causal Learning with Gaussian Processes 
 tags: [NeurIPS20]
 ---
 
