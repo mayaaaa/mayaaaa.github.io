@@ -38,6 +38,6 @@ tags: [NeurIPS2020]
 - Rumi-LSGANは(a) 正サンプルのラベル $$b^+$$ (b) 負ラベルのラベル $$b^-$$ (c) generatorからのラベル $$a$$とdiscriminatorの出力の二乗誤差を最小化
 - 同時にgeneratorは生成されたサンプルに対して $$D({\bf x})$$と $$c$$の二乗誤差を最小化する
 - 提案手法は教師なし学習における少数クラスの問題に対処できる
-
+  - ベンチマークデータを使った実験でGANに比べ低いFID (Fréchet Inception Distance)スコアを達成
 
 
