@@ -29,7 +29,7 @@ tags: [NeurIPS2020]
 **提案手法**
 - 本研究は詩人ルーミーの ``The art of knowing is knowing what to ignore''という言葉に動機づけられたもの
 - 本稿では学習``しない''負のサンプルをモデルに与える
-  - 具体的にはgeneratorの出力に重み付け
+  - 具体的にはgeneratorの出力を望ましいサンプルと望ましくないサンプルに分け, それぞれに異なる重み付け
   - こういったフレームワークを``Rumi''と呼ぶ  
 - Rumi設定下でSGANとLSGANを定式化する
 - Rumi-SGANのdiscriminatorの損失関数は (a) 正ラベルサンプル(b) 生成サンプル (c) 負のクラスからのサンプル のクロスエントロピー
