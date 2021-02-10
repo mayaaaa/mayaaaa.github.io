@@ -28,5 +28,9 @@ tags: [NeurIPS2020]
 
 **提案手法**
 - 本研究は詩人ルーミーの ``The art of knowing is knowing what to ignore''という言葉に動機づけられたもの
-- 
+- Rumi-SGANのdiscriminatorの損失関数は (a) 正ラベルサンプル(b) 生成サンプル (c) 負のクラスからのサンプル のクロスエントロピー
+- $$p_g$$が非負&積分が1という制約も考慮
+- ラグラジアンは式(2)で書ける
+- Rumi-LSGANは(a) 正サンプルのラベル $$b^+$$ (b) 負ラベルのラベル $$b^-$$ (c) generatorからのラベル $$a$$とdiscriminatorの出力の二乗誤差を最小化
+- 同時にgeneratorは生成されたサンプルに対して $$D({\bf x})$$と $$c$$の二乗誤差を最小化する
 
