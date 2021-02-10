@@ -24,3 +24,9 @@ tags: [NeurIPS2020]
   - 正もしくは負のラベルあり+ラベルなしデータを入力とし, 正のラベルなしデータを負のデータから区別することを目的とする
 - 一般的なGANは適当なgenerator見つけるのをゴールとしているが, GCGANやGenPUの最終目的は適当なdiscriminatorを見つけること
 
+![GSD1 phenotype]({{ BASE_PATH }}/_site/assets/images/Rumi-GAN.png)
+
+**提案手法**
+- 本研究は詩人ルーミーの ``The art of knowing is knowing what to ignore''という言葉に動機づけられたもの
+- 
+
