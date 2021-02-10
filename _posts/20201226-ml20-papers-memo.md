@@ -13,17 +13,7 @@ tags: [NeurIPS20]
 [NeurIPS 2020 Proceedings](https://papers.nips.cc/paper/2020)
 [ICDM 2020 Proceedings](http://proceedings.mlr.press/v119/)
 
-
----
-- 
-
-
----
----
-
-
----
-- 
+https://ai-scholar.tech/articles/survey/NeurIPS2020
 
 
 ---
@@ -39,6 +29,8 @@ tags: [NeurIPS20]
 ### [PDF](https://proceedings.neurips.cc/paper/2020/file/89562dccfeb1d0394b9ae7e09544dc70-Paper.pdf)
 
 --- 
+## Point process models for sequence detection in high-dimensional neural spike trains
+### [PDF](https://papers.nips.cc/paper/2020/hash/a5481cd6d7517aa3fc6476dc7d9019ab-Abstract.html)
 
 ---
 ## Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction
