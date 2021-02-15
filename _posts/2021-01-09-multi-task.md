@@ -24,5 +24,10 @@ tags: [NeurIPS20]
 - intervention functionsを$${\bf T}$$と置く
 - 独立な外生変数 $${\bf U}$$とその分布 $$P({\bf U})$$, 観測された外生変数 $${\bf V}$$からなるSCMを考える 
   - 観測された外生変数 $${\bf V}$$の一部がtreatment variables $$X$$, 残りが出力 $$Y$$
-- 
+- $$y$$を $$x$$で回帰 
+$$
+\begin{align*}
+y_{si}^I = 
+\end{align*}
+$$  
 
