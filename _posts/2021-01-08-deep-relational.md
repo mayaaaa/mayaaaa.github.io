@@ -22,10 +22,6 @@ tags: [NeurIPS20]
 - Graph Poisson gamma belief network (GPGBN)はTつの隠れ層を使ってこのモデルを拡張したもの
   - $$\theta_i$$が一つ上の層の$$\Psi$$と$$\theta_i$$の内積から生成されるという仮定
   - GPGBNは全てのパラメータの事後分布を解析的に解ける
-- GPGBN (decoder)と2つのワイブル分布ベースグラフ推論モデル (decoder)を組み合わせる 
-- 二つのワイブルグラフAEができる
-
-**実験**
-- 6つのベンチマークデータを使用
+- DecoderをGPGBNで記述, encoderを2つのワイブル分布ベースグラフ推論モデルで記述
 
 
