@@ -4,7 +4,7 @@ title: Deep Relational Topic Modeling via Graph Poisson Gamma Belief Network
 tags: [NeurIPS20]
 ---
 
-### [PDF](https://papers.nips.cc/paper/2020/file/45c166d697d65080d54501403b433256-Paper.pdf)
+### [PDF](https://proceedings.neurips.cc/paper/2020/hash/05ee45de8d877c3949760a94fa691533-Abstract.html)
 **イントロ**
 - グラフ関連のタスク (リンク予測など)では予測の不確実性をモデル化するのが重要
 - グラフのモデル化に広く使われるモデルとして潜在空間におけるnodeとedgeの関係を考慮するもの (relational topic model)がある
