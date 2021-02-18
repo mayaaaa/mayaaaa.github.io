@@ -39,6 +39,5 @@ tags: [NeurIPS2020]
 - 未観測ノードのembeddingの不確実性を考慮するためembedding $$\phi_i'$$が以下の事後分布 $$p(\phi_i'|\mathcal{S}_i,\phi)$$に従うと仮定
   - 事後分布 $$p(\phi_i'|\mathcal{S}_i,\phi)$$をガウス分布でモデル化
   - 平均・分散を $$\mathcal{S}_i,\phi$$のGraph VAEベースの関数で記述
-- 
 
 
