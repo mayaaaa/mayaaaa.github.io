@@ -28,8 +28,4 @@ https://ai-scholar.tech/articles/survey/NeurIPS2020
 ## Point process models for sequence detection in high-dimensional neural spike trains
 ### [PDF](https://papers.nips.cc/paper/2020/hash/a5481cd6d7517aa3fc6476dc7d9019ab-Abstract.html)
 
----
-## Non-reversible Gaussian processes for identifying latent dynamical structure in neural data
-### [PDF](https://papers.nips.cc/paper/2020/hash/6d79e030371e47e6231337805a7a2685-Abstract.html)
-
 
