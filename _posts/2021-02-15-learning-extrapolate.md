@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction"
-tags: [NeurIPS2020]
+tags: [NeurIPS20]
 ---
+
+<!--more-->
 
 ### [PDF](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
 **イントロ**
@@ -36,8 +38,8 @@ tags: [NeurIPS2020]
 - このアプローチだと未観測ノード間の関係を考慮するため, GENを拡張する
   - 通常のGENでは周辺ノードの特徴量の重み付け和でメタ学習器をモデル化 
   - 未観測ノードを考慮するため周辺の未観測ノード全ての影響を表す特徴量 $$\phi_i$$を導入し, メタ学習器に足し込む
-- 未観測ノードのembeddingの不確実性を考慮するためembedding $$\phi_i'$$が以下の事後分布 $$p(\phi_i'|\mathcal{S}_i,\phi)$$に従うと仮定
-  - 事後分布 $$p(\phi_i'|\mathcal{S}_i,\phi)$$をガウス分布でモデル化
+- 未観測ノードのembeddingの不確実性を考慮するためembedding $$\phi_i'$$が以下の事後分布 $$p(\phi_i'\vert\mathcal{S}_i,\phi)$$に従うと仮定
+  - 事後分布 $$p(\phi_i'\vert\mathcal{S}_i,\phi)$$をガウス分布でモデル化
   - 平均・分散を $$\mathcal{S}_i,\phi$$のGraph VAEベースの関数で記述
 
 

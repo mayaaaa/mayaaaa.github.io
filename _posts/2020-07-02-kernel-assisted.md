@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Kernel Assisted Learning for Personalized Dose Finding 
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/pdf/10.1145/3394486.3403048)
 **イントロ**

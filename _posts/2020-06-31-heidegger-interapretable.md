@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Heidegger: Interpretable Temporal Causal Discovery"
-tags: [KDD2020]
+tags: [KDD20]
 ---
 
+<!--more-->
 
 **イントロ**
 - なぜ一部の人は歳を取ると認知能力が下がるのか? 何が原因なのか?

@@ -1,3 +1,3 @@
 git add --all
-git commit -m "Update blog post" 
+git commit -m "fix bug" 
 git push #-u origin master

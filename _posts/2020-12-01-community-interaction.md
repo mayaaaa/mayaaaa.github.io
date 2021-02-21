@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Community Interaction and Conflict on the Web
-tag: [WWW2018]
+tag: [WWW18]
 ---
+
+<!--more-->
 
 ### [PDF](https://arxiv.org/pdf/1803.03697.pdf)
 ### [Code and Data](https://snap.stanford.edu/conflict/)

@@ -4,8 +4,10 @@ title: Implicit Neural Representations with Periodic Activation Functions
 tags: [NeurIPS20]
 ---
 
-### [PDF](https://papers.nips.cc/paper/2020/hash/53c04118df112c13a8c34b38343b9c10-Abstract.html)
-### [Video](https://www.youtube.com/watch?v=Or9J-DCDGko)
+<!--more-->
+
+[PDF](https://papers.nips.cc/paper/2020/hash/53c04118df112c13a8c34b38343b9c10-Abstract.html)
+[Video](https://www.youtube.com/watch?v=Or9J-DCDGko)
 
 **アブスト**
 - 画像, ビデオ, 点群, 音声等のシグナルのmapping $$\Phi$$をニューラルネットで記述する手法が提案されている
@@ -22,15 +24,15 @@ tags: [NeurIPS20]
 - この特徴を利用することでニューラルネットの出力そのものだけでなく入力 (画像の場合ピクセル座標)の1階微分, 2階微分についての学習もできるようになる 
 
 **提案手法**
-- 以下の制約を満たしながら $$\Phi$$のパラメータを最適化するタスクを考える
-  - $$\mathcal{C} = \{ {\bf x}, \Phi, \bigtriangledown_{\bf x}\Phi, \bigtriangledown^2_{\bf x}\Phi, ... \} =0$$
+- 以下の制約を満たしながら $$\Phi$$のパラメータを最適化するタスクを考える  
+  $$\mathcal{C}( {\bf x}, \Phi, \nabla_{\bf x}\Phi, \nabla^2_{\bf x}\Phi, ... )=0$$
   - ここで$${\bf x}$$は座標, $$\Phi$$はニューラルネット
   - 本稿ではこのような表現 $$\Phi$$をimplicit neural representationと呼ぶ
   - このようなタスクは科学の幅広い分野で重要である
     - 符号付き距離関数を用いた三次元点群のモデル化, より一般的にはヘルムホルツ方程式, ポアソン方程式, 波動方程式などの境界値問題
 - MLPのactivation functionを単純にsin関数で置き換え, それに合わせた初期化手法を提案する
-- 具体的にはニューラルネット $$\Phi$$の $i$層目の変換を次式でモデル化
-  - $$\phi_i({\bf x}_i)=\text{sin}({\bf W}_i{\bf x}_i+{\bf b}_i)$$
+- 具体的にはニューラルネット $$\Phi$$の $i$層目の変換を次式でモデル化  
+  $$\phi_i({\bf x}_i)=\text{sin}({\bf W}_i{\bf x}_i+{\bf b}_i)$$
   - ここで $${\bf W}_i$$は重み行列, $${\bf b}_i$$はバイアスパラメータ
 - このような定式化により, 提案手法の微分はそれ自身が提案手法の複合関数になる
   - sin関数の特徴はその微分がcos関数 (すなわち位相をずらしたsin関数)になるため
@@ -51,8 +53,8 @@ tags: [NeurIPS20]
 
 **実験**
 - 4.1節: ポアソン方程式の学習
-  - 画像のRGBそのものを使わず$$f({\bf x})$$の微分 $$\bigtriangledown_{\bf x}f({\bf x})$$をうまく再現するよう$$\bigtriangledown_{\bf x}\Phi({\bf x})$$を学習する 
-  - あるいはラプラシアン (2階微分)をうまく再現するよう $$\bigtriangledown\cdot\bigtriangledown\Phi({\bf x})$$を学習
+  - 画像のRGBそのものを使わず$$f({\bf x})$$の微分 $$\nabla_{\bf x}f({\bf x})$$をうまく再現するよう$$\nabla_{\bf x}\Phi({\bf x})$$を学習する 
+  - あるいはラプラシアン (2階微分)をうまく再現するよう $$\nabla\cdot\nabla\Phi({\bf x})$$を学習
   - このような最適化を行う (ポアソン方程式を解く)ことで元の画像を再構成できる
     - 目的関数に含まれる $$\int_{\Omega}$$は画像の場合全ピクセルについての和
     - 図3左上の左から二番目が微分を用いて学習した $$\Phi$$から再構成した元画像, 左から三番目がラプラシアンを用いた再構成 
@@ -68,9 +70,9 @@ tags: [NeurIPS20]
     - レーザー等で計測した点群から物体の境界面を再構成したい
     - 本実験では物体の境界面を直接学習代わりに3次元空間の点の座標を入力とし境界面からの距離を出力するニューラルネット=符号付き距離関数 (SDF)を学習する
     - 3次元空間上の各点を $${\bf x}$$, 境界面を $$\Omega$$と置く
-    - このタスクは空間的微分 $$\vert \bigtriangledown_{\bf x}\Phi \vert$$が1という制約の下でEikonalの境界値問題を解くことに等しい
+    - このタスクは空間的微分 $$\vert \nabla_{\bf x}\Phi \vert$$が1という制約の下でEikonalの境界値問題を解くことに等しい
     - 目的関数は3つの積分で書き下せる
-      - 全ての点集合 $$\Omega$$について$$\vert \bigtriangledown_{\bf x}\Phi \vert =1$$
+      - 全ての点集合 $$\Omega$$について$$\vert \nabla_{\bf x}\Phi \vert =1$$
         - SDFは最寄りの点への距離なのでその微分はその点の逆方向を示す
         - ある点を1空間単位ずらしたらSDFは1大きくなる$$\rightarrow$$微分は1になっているはず
       - 境界面上の点の集合 $$\Omega_0$$についてSDFが0に近づくような制約+SDFの微分と境界面の微分が平行になるような制約

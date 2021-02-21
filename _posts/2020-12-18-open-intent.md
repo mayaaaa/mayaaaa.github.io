@@ -4,6 +4,8 @@ title: Open Intent Extraction from Natural Language Interactions
 tag: [WWW 2020] 
 ---
 
+<!--more-->
+
 ### イントロ
 - 音声認識サービスにおいては人の発言の意図を理解するのが大事
 - 既存手法ではマルチタスク分類手法を用いてユーザの意図を理解するものが多い (ラベル付きデータを使用)

@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Non-reversible Gaussian processes for identifying latent dynamical structure in neural data
+title: "Non-reversible Gaussian processes for identifying latent dynamical structure in neural data"
 tags: [NeurIPS20]
 ---
 
-### [PDF](https://papers.nips.cc/paper/2020/hash/6d79e030371e47e6231337805a7a2685-Abstract.html)
+<!--more-->
+---
+[PDF](https://papers.nips.cc/paper/2020/hash/6d79e030371e47e6231337805a7a2685-Abstract.html)
+
 **イントロ**
 - 高次元のニューラルデータは低次元の潜在状態の時間変化で記述することができる
 - 既存手法は2つのカテゴリに分けられる
@@ -39,5 +42,6 @@ tags: [NeurIPS20]
   - 図2Aは学習に用いた5つの軌跡 
   - 二つ目は2次元力学系であるファン・デル・ポール振動子
 - 一次運動野で記録されたデータを用い, 潜在空間の回転軌道を自動で推定できることを示した
- 
 
+---
+ 

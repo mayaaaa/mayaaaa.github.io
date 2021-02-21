@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Towards Automated Neural Interaction Discovering for Click-Through Rate Prediction
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 **イントロ**
 - クリック率の予測はリアルタイム入札, ウェブ広告, 検索エンジンの最適化などの応用で重要 

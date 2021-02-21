@@ -1,8 +1,10 @@
 ---
 layout: post
 title: A Framework for Recommending Accurate and Diverse Items Using Bayesian Graph Convolutional Neural Networks 
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/pdf/10.1145/3394486.3403254)
 **イントロ**

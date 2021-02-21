@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Identifying Sepsis Subphenotypes via Time-Aware Multi-Modal Auto-Encoder
-tags: [KDD2020]
+tags: [KDD20]
 ---
 
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/10.1145/3394486.3403129)
 **イントロ**

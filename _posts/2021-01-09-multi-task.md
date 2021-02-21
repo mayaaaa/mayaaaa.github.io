@@ -4,6 +4,8 @@ title: Multi-task Causal Learning with Gaussian Processes
 tags: [NeurIPS20]
 ---
 
+<!--more-->
+
 ### [PDF](https://papers.nips.cc/paper/2020/file/45c166d697d65080d54501403b433256-Paper.pdf)
 **イントロ**
 - 意思決定において介入実験が重要

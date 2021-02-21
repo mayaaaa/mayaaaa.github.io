@@ -4,6 +4,8 @@ title: "CaSPR: Learning Canonical Spatiotemporal Point Cloud Representations"
 tags: [NeurIPS20]
 ---
 
+<!--more-->
+
 ## [PDF](https://papers.nips.cc/paper/2020/file/9de6d14fff9806d4bcd1ef555be766cd-Paper.pdf)
 **イントロ**
 - 時空間的に変化する幾何オブジェクトの再構成が重要

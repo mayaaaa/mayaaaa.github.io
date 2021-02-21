@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Deep State-Space Generative Model For Correlated Time-to-Event Predictions
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/10.1145/3394486.3403206)
 **イントロ**

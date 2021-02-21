@@ -4,6 +4,8 @@ title: Causal analysis of Covid-19 spread in Germany
 tags: [NeurIPS20]
 ---
 
+<!--more-->
+
 ### [PDF](https://dl.acm.org/doi/pdf/10.1145/3394486.3403130)
 **イントロ**
 - ドイツにおけるコロナの広がりを因果時系列モデルを使って分析

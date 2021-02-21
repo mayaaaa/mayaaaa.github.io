@@ -1,8 +1,10 @@
 ---
 layout: post
 title: A Data Driven Graph Generative Model for Temporal Interaction Networks
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/10.1145/3394486.3403082)
 **イントロ**

@@ -4,6 +4,7 @@ title: Adapting Neural Networks for the Estimation of Treatment Effects
 tags: [NeurIPS20]
 ---
 
+<!--more-->
 
 ### [PDF](https://papers.nips.cc/paper/2019/file/8fb5f8be2aa9d6c64a04e3ab9f63feee-Paper.pdf)
 **イントロ**

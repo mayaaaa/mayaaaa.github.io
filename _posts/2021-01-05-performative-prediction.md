@@ -4,6 +4,8 @@ title: Performative Prediction
 tags: [NeurIPS20]
 ---
 
+<!--more-->
+
 ### [PDF](https://arxiv.org/abs/2002.06673)
 **イントロ**
 - 予測結果を意思決定のサポートに使う場合, 予測結果が行動変容を招き予測対象に影響を及ぼすことがある

@@ -4,6 +4,8 @@ title: Interpretable Sequence Learning for COVID-19 Forecasting
 tags: [NeurIPS20]
 ---
 
+<!--more-->
+
 ### [PDF](https://papers.nips.cc/paper/2020/file/d9dbc51dc534921589adf460c85cd824-Paper.pdf)
 **イントロ**
 - COVID-19の予測は様々なシーンで役立つ

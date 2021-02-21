@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "xGAIL: Explainable Generative Adversarial Imitation Learning for Explainable Human Decision Analysis"
-tags: [KDD2020]
+tags: [KDD20]
 ---
+
+<!--more-->
 
 ### [PDF](https://dl.acm.org/doi/10.1145/3394486.3403186)
 **イントロ**

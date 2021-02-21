@@ -4,7 +4,9 @@ title: Deep Multimodal Fusion by Channel Exchanging
 tags: [NeurIPS20]
 ---
 
-## [PDF](https://papers.nips.cc/paper/2020/file/339a18def9898dd60a634b2ad8fbbd58-Paper.pdf)
+<!--more-->
+
+[PDF](https://papers.nips.cc/paper/2020/file/339a18def9898dd60a634b2ad8fbbd58-Paper.pdf)
 
 **イントロ**
 - 深層学習を用いたmultimodal fusionがsemantic, segmentation, action recognition, VQAなどの分野でメジャーになっている
@@ -22,7 +24,7 @@ tags: [NeurIPS20]
 
 **提案手法**
 - $$i$$番目のデータを$${\bf x}^{(i)}$$, $$m$$番目のモーダルのサブネットワークを $$f_m({\bf x}^{(i)})$$と記述
-  - サブネットワーク $f_m(\cdot)$は通常の畳み込みレイヤー+scaling factor $$\gamma$$込みのBatch-Normalizationレイヤー
+  - サブネットワーク $$f_m(\cdot)$$は通常の畳み込みレイヤー+scaling factor $$\gamma$$込みのBatch-Normalizationレイヤー
   - $$\gamma$$は各レイヤーの入力と出力の相関を表す
   - とあるモーダルの$$\gamma$$が一定値 $$\theta$$を下回る場合, それ以外のモーダルの対応するレイヤーの特徴量の平均で置き換える
 
