@@ -23,7 +23,7 @@ tags: [NeurIPS20]
 
 **提案手法**
 - 以下の制約を満たしながら $$\Phi$$のパラメータを最適化するタスクを考える
-  - $$\mathcal{C} = \{ {\bf x}, \Phi, \Delta_{\bf x}\Phi, \Delta^2_{\bf x}\Phi, ... \} =0$$
+  - $$\mathcal{C} = \{ {\bf x}, \Phi, \bigtriangledown_{\bf x}\Phi, \bigtriangledown^2_{\bf x}\Phi, ... \} =0$$
   - ここで$${\bf x}$$は座標, $$\Phi$$はニューラルネット
   - 本稿ではこのような表現 $$\Phi$$をimplicit neural representationと呼ぶ
   - このようなタスクは科学の幅広い分野で重要である
@@ -51,8 +51,8 @@ tags: [NeurIPS20]
 
 **実験**
 - 4.1節: ポアソン方程式の学習
-  - 画像のRGBそのものを使わず$$f({\bf x})$$の微分 $$\Delta_{\bf x}f({\bf x})$$をうまく再現するよう$$\Delta_{\bf x}\Phi({\bf x})$$を学習する 
-  - あるいはラプラシアン (2階微分)をうまく再現するよう $$\Delta\cdot\Delta\Phi({\bf x})$$を学習
+  - 画像のRGBそのものを使わず$$f({\bf x})$$の微分 $$\bigtriangledown_{\bf x}f({\bf x})$$をうまく再現するよう$$\bigtriangledown_{\bf x}\Phi({\bf x})$$を学習する 
+  - あるいはラプラシアン (2階微分)をうまく再現するよう $$\bigtriangledown\cdot\bigtriangledown\Phi({\bf x})$$を学習
   - このような最適化を行う (ポアソン方程式を解く)ことで元の画像を再構成できる
     - 目的関数に含まれる $$\int_{\Omega}$$は画像の場合全ピクセルについての和
     - 図3左上の左から二番目が微分を用いて学習した $$\Phi$$から再構成した元画像, 左から三番目がラプラシアンを用いた再構成 
@@ -68,9 +68,9 @@ tags: [NeurIPS20]
     - レーザー等で計測した点群から物体の境界面を再構成したい
     - 本実験では物体の境界面を直接学習代わりに3次元空間の点の座標を入力とし境界面からの距離を出力するニューラルネット=符号付き距離関数 (SDF)を学習する
     - 3次元空間上の各点を $${\bf x}$$, 境界面を $$\Omega$$と置く
-    - このタスクは空間的微分 $$\vert \Delta_{\bf x}\Phi \vert$$が1という制約の下でEikonalの境界値問題を解くことに等しい
+    - このタスクは空間的微分 $$\vert \bigtriangledown_{\bf x}\Phi \vert$$が1という制約の下でEikonalの境界値問題を解くことに等しい
     - 目的関数は3つの積分で書き下せる
-      - 全ての点集合 $$\Omega$$について$$\vert \Delta_{\bf x}\Phi \vert =1$$
+      - 全ての点集合 $$\Omega$$について$$\vert \bigtriangledown_{\bf x}\Phi \vert =1$$
         - SDFは最寄りの点への距離なのでその微分はその点の逆方向を示す
         - ある点を1空間単位ずらしたらSDFは1大きくなる$$\rightarrow$$微分は1になっているはず
       - 境界面上の点の集合 $$\Omega_0$$についてSDFが0に近づくような制約+SDFの微分と境界面の微分が平行になるような制約
