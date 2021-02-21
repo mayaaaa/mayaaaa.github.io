@@ -2,9 +2,9 @@ title: May'Log
 name: "May's Tech Blog"
 author: May 
 #twitter_username: lilianweng
-baseurl: "/may-log"
+baseurl: ""
 description: Document my learning notes.
-profile_url: "http://mayaaaa.github.io"
+profile_url: "http://mayaaaa.github.io/may-log"
 
 # Build settings
 markdown: kramdown
