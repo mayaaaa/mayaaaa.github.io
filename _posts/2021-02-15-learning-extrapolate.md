@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction 
+title: "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction"
 tags: [NeurIPS2020]
 ---
 

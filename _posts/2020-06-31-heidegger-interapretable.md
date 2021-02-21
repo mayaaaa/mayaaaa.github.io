@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Heidegger: Interpretable Temporal Causal Discovery 
+title: "Heidegger: Interpretable Temporal Causal Discovery"
 tags: [KDD2020]
 ---
 

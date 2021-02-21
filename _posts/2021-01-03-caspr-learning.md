@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CaSPR: Learning Canonical Spatiotemporal Point Cloud Representations
+title: "CaSPR: Learning Canonical Spatiotemporal Point Cloud Representations"
 tags: [NeurIPS20]
 ---
 

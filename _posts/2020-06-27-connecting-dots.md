@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks 
+title: "Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks"
 tags: [KDD2020]
 ---
 
