@@ -23,7 +23,7 @@ tags: [NeurIPS20]
 
 **提案手法**
 - 以下の制約を満たしながら $$\Phi$$のパラメータを最適化するタスクを考える
-  - $$\mathcal{C}={\bf x}, \Phi, \Delta_{\bf x}\Phi, \Delta^2_{\bf x}\Phi, ...=0$$
+  - $$\mathcal{C} = \{ {\bf x}, \Phi, \Delta_{\bf x}\Phi, \Delta^2_{\bf x}\Phi, ... \} =0$$
   - ここで$${\bf x}$$は座標, $$\Phi$$はニューラルネット
   - 本稿ではこのような表現 $$\Phi$$をimplicit neural representationと呼ぶ
   - このようなタスクは科学の幅広い分野で重要である
