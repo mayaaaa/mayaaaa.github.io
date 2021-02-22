@@ -41,5 +41,7 @@ tag: [WWW 2020]
 - CRFでAction, Object, Noneタグを予測したら最後に意味のあるフレーズに変換 <- 単語同士の近さを使って分類するシンプルな手法とMLPを使う手法を2つ提案
 
 **所感**
-- イントロの書き方うまい (open world <-> closed worldの説明など)
+- イントロの書き方うまい (open world $$\leftrightarrow$$ closed worldの説明など)
 - タスクの新規性＆応用上の重要性とクラウドソーシングを使ってラベル付きデータを集めた点がBest paper受賞につながった?
+
+
