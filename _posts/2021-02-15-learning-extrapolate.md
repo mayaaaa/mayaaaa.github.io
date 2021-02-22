@@ -6,7 +6,8 @@ tags: [NeurIPS20]
 
 <!--more-->
 
-### [PDF](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
+[PDF](https://proceedings.neurips.cc/paper/2020/file/0663a4ddceacb40b095eda264a85f15c-Paper.pdf)
+
 **イントロ**
 - 非ユークリッド空間においてグラフをあつかうGNN手法が多数存在する
 - 近年はエッジのラベルや向きを考慮する relation-aware GNN手法が提案されている

@@ -6,7 +6,8 @@ tags: [NeurIPS20]
 
 <!--more-->
 
-### [PDF](https://proceedings.neurips.cc/paper/2020/hash/05ee45de8d877c3949760a94fa691533-Abstract.html)
+[PDF](https://proceedings.neurips.cc/paper/2020/hash/05ee45de8d877c3949760a94fa691533-Abstract.html)
+
 **イントロ**
 - グラフ関連のタスク (リンク予測など)では予測の不確実性をモデル化するのが重要
 - グラフのモデル化に広く使われるモデルとして潜在空間におけるnodeとedgeの関係を考慮するもの (relational topic model)がある

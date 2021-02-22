@@ -6,7 +6,8 @@ tags: [NeurIPS20]
 
 <!--more-->
 
-### [PDF](https://papers.nips.cc/paper/2020/file/45c166d697d65080d54501403b433256-Paper.pdf)
+[PDF](https://papers.nips.cc/paper/2020/file/45c166d697d65080d54501403b433256-Paper.pdf)
+
 **イントロ**
 - 意思決定において介入実験が重要
 - 図1のように収穫量 $$Y$$は肥料 $$X$$, 異なる時刻における虫の率 $$Z=\{Z_1,Z_2,Z_3\}$$で決まる

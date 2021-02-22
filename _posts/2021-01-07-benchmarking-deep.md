@@ -6,7 +6,8 @@ tags: [NeurIPS20]
 
 <!--more-->
 
-### [PDF](https://papers.nips.cc/paper/2020/file/47a3893cc405396a5c30d91320572d6d-Paper.pdf)
+[PDF](https://papers.nips.cc/paper/2020/file/47a3893cc405396a5c30d91320572d6d-Paper.pdf)
+
 **イントロ**
 - 説明可能なモデルは多数提案されているが, 説明性の評価は正解がないため難しい
 - 特に時系列データだとこれが問題になる

@@ -6,7 +6,7 @@ tag: [WWW 2020]
 
 <!--more-->
 
-### イントロ
+**イントロ**
 - 音声認識サービスにおいては人の発言の意図を理解するのが大事
 - 既存手法ではマルチタスク分類手法を用いてユーザの意図を理解するものが多い (ラベル付きデータを使用)
 - しかしこれらの手法は新たな意図のカテゴリに対処することができない
@@ -29,7 +29,7 @@ tag: [WWW 2020]
 - 意図理解のベンチマークデータは実世界のノイズと複雑性を捉えられてない
 - 本研究ではStack Exchangeのデータを使う (意図はクラウドソーシングでアノテーション)
 
-### 提案手法
+**提案手法**
 - 意図をactionとobjectの二つで定義
   - "Please make a 10:30 sharp appointment for a haircut"のobjectはappointment, actionはmake
   - "I would like to reserve a seat and request a special meal on my flight"のobjectはseatとspecial meal, actionはreserveとrequest
@@ -40,7 +40,6 @@ tag: [WWW 2020]
 - CNNの上にattention mechanismをかませ, さらにattentionの出力をCRFの入力として使う
 - CRFでAction, Object, Noneタグを予測したら最後に意味のあるフレーズに変換 <- 単語同士の近さを使って分類するシンプルな手法とMLPを使う手法を2つ提案
 
-
-### 所感
+**所感**
 - イントロの書き方うまい (open world <-> closed worldの説明など)
 - タスクの新規性＆応用上の重要性とクラウドソーシングを使ってラベル付きデータを集めた点がBest paper受賞につながった?

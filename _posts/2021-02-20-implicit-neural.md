@@ -7,9 +7,10 @@ tags: [NeurIPS20]
 <!--more-->
 
 [PDF](https://papers.nips.cc/paper/2020/hash/53c04118df112c13a8c34b38343b9c10-Abstract.html)
+
 [Video](https://www.youtube.com/watch?v=Or9J-DCDGko)
 
-**アブスト**
+**概要**
 - 画像, ビデオ, 点群, 音声等のシグナルのmapping $$\Phi$$をニューラルネットで記述する手法が提案されている
   - 例えば画像ピクセルの座標を入力したときに各ピクセルのRGB値を返す関数 $$\Phi$$をニューラルネットでモデル化
   - このような $$\Phi$$のパラメータを本稿では画像のimplicit representationと呼ぶ

@@ -6,8 +6,9 @@ tag: [WWW18]
 
 <!--more-->
 
-### [PDF](https://arxiv.org/pdf/1803.03697.pdf)
-### [Code and Data](https://snap.stanford.edu/conflict/)
+[PDF](https://arxiv.org/pdf/1803.03697.pdf)
+
+[Code and Data](https://snap.stanford.edu/conflict/)
 
 **イントロ**
 - 時変グラフにおけるpath failureをあてる
