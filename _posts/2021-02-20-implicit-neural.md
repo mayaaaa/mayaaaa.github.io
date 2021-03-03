@@ -10,8 +10,10 @@ tags: [NeurIPS20]
 
 [Video](https://www.youtube.com/watch?v=Or9J-DCDGko)
 
+[解説Youtube](https://www.youtube.com/watch?v=Q5g3p9Zwjrk&feature=youtu.be)
+
 **概要**
-- 画像, ビデオ, 点群, 音声等のシグナルのmapping $$\Phi$$をニューラルネットで記述する手法が提案されている
+- 画像, ビデオ, 点群, 音声等のシグナルの写像 $$\Phi$$をニューラルネットで記述する手法が提案されている
   - 例えば画像ピクセルの座標を入力したときに各ピクセルのRGB値を返す関数 $$\Phi$$をニューラルネットでモデル化
   - このような $$\Phi$$のパラメータを本稿では画像のimplicit representationと呼ぶ
   - この場合, 各ピクセル $${\bf X}_i$$のRGB $$f({\bf X}_i)$$と$$\Phi({\bf X}_i)$$の二乗誤差が最小になるような$$\Phi$$のパラメータを学習する
