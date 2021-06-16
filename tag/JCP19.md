@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: JCP19"
+title: "Tag: Journal of Computational Physics 19"
 tag: Journal of Computational Physics 19
 ---
