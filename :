@@ -155,51 +155,16 @@ Tianxin Wei (University of Science and Technology of China) et al.
 
 ### Table2Charts: Recommending Charts by Learning Shared Table Representations  [PDF](https://arxiv.org/abs/2008.11015)
 #### Mengyu Zhou (Microsoft Research)
-**イントロ**
-- 表で表された多次元データからのチャートの作成は教育, 研究, エンジニアリング, 金融など様々な分野で一般的に行われている 
-- その際, まずどのデータを使うかを選び (データの照合), その後どう可視化するか (デザインの選択)を決める
-- チャートの作成にはデータ分析と可視化ツールに関する経験・知識が必要
-- チャートの作成を自動化する手法はいくつかある
-  - これらの手法はよく使われるチャートの種類 (折れ線グラフ, 棒グラフ, 散布図)をランク付けして推薦するもの (マルチタイプタスク)
-  - あまり使われているわけではないが意味があるチャートの種類 (レーダーチャートなど)を1つ推薦するタスク (シングルタイプタスク)には適用できない
-- シングルタイプ, マルチタイプの2つのタスクにおいてデータの照会とデザインの選択の両方を行う場合, 以下の3つの課題がある
-  1. マルチタイプのタスクとシングルタイプのタスクのモデルを繰り返し独立して設計・学習・利用することは, メモリとスピードの両面で非効率
-  2. データが不均衡. 4つの主要なチャートの種類 (折れ線グラフ, 棒グラフ, 散布図, 円グラフ)がデータの98.91%を占めているが, それ以外のマイナーなチャート (エリアやレーダー)のデータが少ない
-  3. 表からデータを選択して視覚化する際, データの統計値だけでなく表全体の意味を考慮する必要がある
-- 本論文では, 表・チャートのペアからなる大規模データからデータクエリとデザイン選択の両方を含むチャート作成の共通パターンを学習し, 与えられた表ごとにチャートを推薦するTable2Chartsフレームワークを提案
-- Web上のデータから165214個の表から作成された266252個のチャートをエクセルファイルで収集
-- この大規模コーパスを用いてTable2Chartの有効性を検証
-  - 各チャートの種類について, シングルタイプ・マルチタイプのタスクにおけるトップ3およびトップ1推薦の精度を評価
-- また, 検索数の多い500のWebテーブルを対象に人手による評価を行い提案手法の精度を検証
-- 最後にT-SNEによる可視化を行なった
-  - DQNがマルチタイプタスクの学習中に共有テーブル表現を学習し, 後の伝達学習に役立てることで, シングルタイプタスクの性能を向上させ, メモリ使用量を節約できることを示した
 
 
 ### TabularNet: A Neural Network Architecture for Understanding Semantic Structures of Tabular Data  [PDF](https://arxiv.org/abs/2106.03096) 
-#### Lun Du (Microsoft Research) et al. 
+Lun Du (Microsoft Research) et al. 
 
 ### TopNet: Learning from Neural Topic Model to Generate Long Stories
 #### Yazheng Yang (Zhejiang University); Boyuan Pan (Zhejiang University); Deng Cai (Zhejiang University); Huan Sun (Ohio State University)
 
-
 ### Towards a Better Understanding of Linear Models for Recommendation  [PDF](https://arxiv.org/abs/2105.12937)
 #### Ruoming Jin (Kent State University); Dong Li (Kent State University); Jing Gao (iLambda); Zhi Liu (iLambda); Li Chen (iLambda); Yang Zhou (Auburn University)
-- 推薦のための手法は回帰, 行列分解, 深層学習ベースのアプローチ等様々なものが提案されている 
-- しかし, これらの手法はSLIMやEASEなどの線形モデルと比べて精度が出ないことが最近の研究でわかっている
-- SLIM, EASEはユーザ-アイテム行列 $$X$$とアイテム同士の類似度行列 $$W$$の行列積 $$XW$$が $$X$$をうまく再現するような $$W$$を学習するもの
-  - このモデルはシンプルな線形オートエンコーダと一致 (この時 $$W$$はエンコーダとデコーダを兼ねる)
-  - $$W$$は行列分解のユーザベクトル, アイテムベクトルに比べて通常サイズが小さいため, 回帰モデルはあまり柔軟性がない
-  - しかし, 直感に反して精度が出ている
-- この論文ではまず, こうした回帰モデルがなぜうまくいくか分析した
-  - 2つの基本的な (低ランク)回帰モデルと行列分解モデルを分析し, どちらの手法もユーザーアイテム相互作用行列の特異値をわずかに異なるメカニズムでスケールダウンしていることを明らかにした
-  - 低ランク回帰は, 行列分解に比べて, ユーザーアイテム行列 $$X$$のより多くの主成分 (潜在的な次元)を利用できる
-  - また, 行列分解法はユーザーとアイテムの両方の潜在因子行列を用いているためより多くのモデルパラメータを持っているように見えるが, 実際には単純な問題に対する最適解はアイテム行列にのみ依存していることがわかった 
-- ユーザーとアイテムの相互作用行列の特異値をどのように調整できるかを理解するため, 高次元の連続的な (ハイパー)パラメータ空間を探索できる新しい学習アルゴリズムを導入した
-  - 提案手法はモデルの学習後にも使うことができる
-  - それによって, 線形モデルにパラメータを追加し, モデルの精度をさらに向上させることもできる
-- このアプローチは筆者の最近の研究 (next-door analysis)と精神が似ているが, 適用先とアプローチが違う
-- 本研究は推薦モデルのポストモデルフィッティング探索を対象とした初めての研究
-
 
 ### Where are we in embedding spaces? A Comprehensive Analysis on Network Embedding Approaches for Recommender Systems  [PDF](https://arxiv.org/abs/2105.08908)
 #### Sixiao Zhang (University of Technology Sydney) et al. 
@@ -231,7 +196,7 @@ Tianxin Wei (University of Science and Technology of China) et al.
 - アテンション機構はモデルの解釈において重要な役割を果たしている
 - しかし最近の研究では, アテンション機構で予測された特徴量の重要度が直感的な重要度と必ずしも相関していないことが示唆されている 
 - 本論文はアテンション機構の解釈可能性を妨げている根本的な原因は組み合わせによる簡略化であると主張
-  - アテンション結果はマスクと $$V$$の積であるため, マスク自体が $$V$$のハイライト部以外の余分な情報を含んでいる可能性がある
+  - アテンション結果はマスクと $$V$$の積であるため, マスク自体が $$V$$のハイライト部分以外の余分な情報を含んでいる可能性
 
 
 ### Zero-shot Node Classification with Decomposed Graph Prototype Network  [PDF](https://arxiv.org/abs/2106.08022) [Site](https://zhengwang100.github.io/project/zero_shot_graph_embedding.html)
