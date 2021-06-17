@@ -184,8 +184,7 @@ Lun Du (Microsoft Research) et al.
 - この研究では, 推薦システムのための双曲空間と双曲埋込みに関して包括的な分析を行なった
   - まず, 双曲空間とポアンカレ球モデルを紹介
   - 次に, 異なるモデル, データセット, および潜在空間の次元における双曲空間の性能に関して3つの仮説を提案
-  - 最後にメトリック学習に基づく社会的推薦手法であるSocial Collaborative Metric Learning (SCML)と, その双曲空間版であるHyperbolic Social Collaborative Metric Learning (HSCML)を提案
-- 推薦タスクの6つのベンチマークデータセットと6つのモデルを用いて仮説を実証的に検証
+  - 最後にメトリック学習に基づく社会的推薦手法であるSocial Collaborative Metric Learning (SCML)と、その双曲空間版であるHyperbolic Social Collaborative Metric Learning (HSCML)を提案
 
 
 ### Why Attentions May Not Be Interpretable?  [PDF](https://arxiv.org/abs/2006.05656)
