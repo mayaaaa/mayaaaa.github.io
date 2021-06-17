@@ -1,0 +1,55 @@
+---
+layout: post
+title: "KDD 2021 Memo"
+tags: [KDD21]
+---
+
+<!--more-->
+
+国際会議KDD2021の事前準備メモ
+
+[Accepted Papers](https://kdd.org/kdd2021/accepted-papers/index)
+
+
+## Research Track Papers
+
+### A Graph-based Approach for Trajectory Similarity Computation in Spatial Networks
+#### Peng Han (KAUST); Jin Wang (UCLA); Di Yao (Institute of Computing Technology, Chinese Academy of Sciences); Shuo Shang (KAUST); Xiangliang Zhang (King Abdullah University of Science and Technology, Saudi Arabia)  
+
+
+### Accurate Multivariate Stock Movement Prediction via Data-Axis Transformer with Multi-Level Contexts
+#### Jaemin Yoo (Seoul National University); Yejun Soun (Seoul National University); Yong-chan Park (Seoul National University); U Kang (Seoul National University) 
+
+
+### ACE-NODE: Attentive Co-Evolving Neural Ordinary Differential Equations
+#### Sheo Yon Jhin (Yonsei University); Minju Jo (Yonsei University); TaeYong Kong (Yonsei University); Jinsung Jeon (Yonsei university); Noseong Park (Yonsei University, Korea)  
+
+
+### Adaptive Transfer Learning on Graph Neural Networks
+#### Xueting Han (Microsoft Research Asia); Zhenhuan Huang (Beihang University, Microsoft Research Asia); Jing Bai (Microsoft); Bang An (University of Maryland, College Park; Microsoft Research Asia)
+
+
+### Apriori Convolutions for Highly Efficient and Accurate Time Series Classification
+#### Angus Dempster (Monash University); Daniel F Schmidt (Monash University); Geoffrey I Webb (Monash) 
+
+
+### Attentive Heterogeneous Graph Embedding for Job Mobility Prediction
+#### Le Zhang (University of Science and Technology of China) et al. 
+
+
+### Auditing for Diversity Using Representative Examples
+#### Vijay Keswani (Yale University); L. Elisa Celis (Yale University)
+
+
+### Causal models for Real Time Bidding with repeated user interactions
+#### Martin Bompaire (Criteo); Benjamin Heymann (Criteo); Alexandre Gilotte (Criteo)
+
+
+### Causal Understanding of Fake News Dissemination on Social Media  [PDF](http://www.cs.iit.edu/~kshu/files/kdd_causal.pdf)
+#### Lu Cheng (Arizona State University); Ruocheng Guo (Arizona State University); Kai Shu (Illinois Institute of Technology); Huan Liu (Arizona State University)
+
+
+### Choice Set Confounding in Discrete Choice  [PDF](https://arxiv.org/abs/2105.07959)
+#### Kiran Tomlinson (Cornell University); Johan Ugander (Stanford University); Austin R Benson (Cornell University) 
+
+
